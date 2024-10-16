@@ -1,0 +1,528 @@
+.container-fluid {
+    width: 80%;
+}
+
+.logo h2 {
+    height: 20px;
+    color: white;
+}
+
+.logo span {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav {
+    width: 60%;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.most-relaxing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.most-relaxing .container {
+    text-align: center;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.most-relaxing .container h1 {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 330px;
+    top: 30px;
+}
+
+.most-relaxing .container p {
+    color: white;
+    font-size: 18px;
+}
+
+.most-relaxing .container button {
+    height: 50px;
+    width: 170px;
+}
+
+.takeatour {
+    background-color: #c5a880;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.learnmore {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.learnmore:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.check {
+    background-color: #c5a880;
+    font-weight: bold;
+}
+
+.check-in {
+    position: absolute;
+    bottom: -70px;
+    left: 150px;
+}
+
+.checkin-values {
+    height: 150px;
+}
+
+.from {
+    display: flex;
+    align-items: center;
+}
+
+.from input {
+    border: none;
+    outline: none;
+}
+
+.guestborder {
+    border: none;
+    appearance: none;
+}
+
+.roomborder {
+    border: none;
+    appearance: none;
+}
+
+/* unwind-hotel section */
+
+.unwind-hotel {
+    height: 800px;
+    display: flex;
+}
+
+.text .text-content {
+    padding-left: 50px;
+}
+
+.text .text-content span {
+    color: #c5a880;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text .text-content h1 {
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.text .text-content button {
+    background-color: #c5a880;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-icons {
+    font-size: 50px;
+    color: #c5a880;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: black;
+
+    h3 {
+        color: white;
+    }
+
+    img {
+        filter: brightness(0.7);
+    }
+}
+
+/* Hotel-Services section */
+
+.Hotel-Services .container {
+    height: 400px;
+}
+
+.Hotel-Services .container .content span {
+    color: #c5a880;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Hotel-Services .container .content h2 {
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.Hotel-Services .container .buttons {
+    font-size: 25px;
+}
+
+.Hotel-Services .container .buttons button {
+    padding: 25px;
+    background-color: #f1ebeb;
+    border-radius: 70px 70px 70px 0;
+    border: 1px solid #fff;
+    transition: 0.6s;
+}
+
+.Hotel-Services .container .buttons button i {
+    color: rgb(215, 188, 139);
+    font-size: 60px;
+    transition: 0.6s;
+}
+
+.Hotel-Services .container .buttons button:hover {
+    background-color: #c5a880;
+
+    i {
+        color: white;
+    }
+
+    span {
+        color: white;
+    }
+}
+
+/* Next-Vacation section */
+
+.Next-Vacation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 3rem 0;
+}
+
+.Next-Vacation .text span {
+    color: #c5a880;
+    font-weight: bold;
+}
+
+.Next-Vacation .text h2 {
+    color: white;
+    width: 500px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.Next-Vacation .book button {
+    background-color: #c5a880;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+/* Featured-Rooms section */
+
+.Featured-Rooms .container .text span {
+    color: #c5a880;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Featured-Rooms .container .text h2 {
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.Featured-Rooms .container .rooms .card {
+    border-radius: 0;
+}
+
+.Featured-Rooms .container .rooms .card:hover {
+    p {
+        color: rgb(208, 208, 208);
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        border-color: grey;
+    }
+
+    img {
+        cursor: pointer;
+    }
+
+    h3 {
+        cursor: pointer;
+    }
+}
+
+.Featured-Rooms .container .rooms .card h3 {
+    font-size: 35px;
+}
+
+.Featured-Rooms .container .rooms .card p {
+    opacity: 0.5;
+}
+
+.Featured-Rooms .container .rooms .card span {
+    color: #c5a880;
+    font-weight: bold;
+}
+
+.Featured-Rooms .container .rooms .card button {
+    background-color: white;
+    border: 1px solid rgb(225, 222, 222);
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Take-Tour section */
+
+.Take-Tour {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://preview.colorlib.com/theme/unwind/images/bg_2.jpg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.Take-Tour h2 {
+    font-size: 80px;
+}
+
+.Take-Tour p {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.Take-Tour .anime i {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(215, 188, 139);
+    position: relative;
+}
+
+.anime i::before {
+    z-index: 3;
+}
+
+.anime i::after {
+    content: "";
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    background-color: rgb(215, 188, 139);
+    position: absolute;
+    animation: play-anime 1s infinite ease;
+
+}
+
+.anime {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@keyframes play-anime {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+/* numbers section */
+
+.numbers{
+    margin: 100px 0;
+}
+
+.numbers span {
+    font-size: 50px;
+    color: rgb(215, 188, 139);
+}
+
+.numbers p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* recent-blog section */
+
+.recent-blog{
+    height: 800px;
+}
+
+.recent-blog .container{
+    height: 100%;
+}
+.recent-blog .container .text span{
+    color: #c5a880;
+    font-weight: bold;
+}
+.recent-blog .container .text h2{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.recent-blog .blog{
+    height: 540px;
+}
+.recent-blog .blog .card img{
+    height: 16rem;
+}
+.recent-blog .blog .card:hover{
+    background-color: transparent;
+    img{
+        cursor: pointer;
+    }
+    h3{
+        color: black;
+    }
+}
+.recent-blog .blog .card h3:hover{
+    cursor: pointer;
+    color: #c5a880;
+}
+
+/* Photo-Galery section */
+
+.Photo-Galery .photo img{
+    width: 285px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 150px;
+
+}
+
+/* Restaurant-Bar section */
+
+.Restaurant-Bar{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.Restaurant-Bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Restaurant-Bar .left-photo img{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.menu-photos{
+    display: flex;
+}
+.food{
+    width: 300px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+.food p{
+    font-size: 18px;
+    width: 140px;
+}
+
+.food span{
+    padding-bottom: 40px;
+    color: #c5a880;
+    font-weight: bold;
+    font-size: 18px;
+}
+.food img{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resto-text span{
+    color: #c5a880;
+    font-weight: bold;
+}
+.resto-text h2{
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+/* footer */
+footer{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo p{
+    font-size: 13px;
+}
+footer .arrow p{
+transform: 0.6s;
+}
+footer .arrow p:hover{
+    color: rgb(215, 188, 139);
+}
+footer .icons p{
+    display: flex;
+    gap: 20px;
+}
+footer .icons i{
+    color: rgb(215, 188, 139);
+}
